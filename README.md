@@ -120,22 +120,8 @@ mvn clean package
 java -jar demo-0.0.1-SNAPSHOT.jar
 ```
 
-## 性能指标
-- 支持每秒处理1000+信号数据
-- 预警检测延迟<100ms
-- 查询响应时间<50ms
-- 支持横向扩展，可动态增加区域节点
-
-## 监控和运维
-- SQL执行监控：开启 `sql-show` 配置
-- 应用日志：使用SLF4J+Logback
-- 性能指标：集成Spring Boot Actuator
-- 数据清理：自动化月度表管理
-
 ## 开发团队
-- 架构设计：XXX
-- 后端开发：XXX
-- 测试团队：XXX
+- 架构设计：pxj
+- 后端开发：pxj
+- 测试团队：pxj
 
-## 许可证
-MIT License
